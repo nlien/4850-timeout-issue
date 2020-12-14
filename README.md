@@ -9,5 +9,10 @@ Use .env.example as template.
 ## Setup
 
 Clone this repository.
+
+Then install and run the test:
+
+```
 npm ci
 npm run test
+```
