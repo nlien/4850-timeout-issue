@@ -2,3 +2,4 @@
 npm-debug.log
 lambdaTunnelLog.log
 .lambdatest
+node_modules
