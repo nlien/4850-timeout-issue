@@ -1,0 +1,26 @@
+{
+  "name": "4850-timeout-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "env $(cat .env | grep -v \"#\" | xargs) testcafe \"lambdatest:Internet Explorer@11.0:Windows 10\" tests/e2e/lambdatest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlien/4850-timeout-issue.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nlien/4850-timeout-issue/issues"
+  },
+  "homepage": "https://github.com/nlien/4850-timeout-issue#readme",
+  "devDependencies": {
+    "testcafe": "^1.9.4",
+    "testcafe-browser-provider-lambdatest": "^2.0.3"
+  }
+}
