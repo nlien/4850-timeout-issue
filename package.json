@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "env $(cat .env | grep -v \"#\" | xargs) testcafe \"lambdatest:Internet Explorer@11.0:Windows 10\" tests/e2e/lambdatest.js"
+    "test": "env $(cat .env | grep -v \"#\" | xargs) testcafe \"lambdatest:Internet Explorer@11.0:Windows 10\" tests/e2e/lambdatest.js -e"
   },
   "repository": {
     "type": "git",
