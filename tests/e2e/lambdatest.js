@@ -5,7 +5,6 @@ fixture('LambdaTest landing page').page(
 )
 
 test("Should have a title", async page => {
-    // Language dropdown
     const title = Selector('section.testing_cloud_section > div > div > h1');
     await page
         .expect(title.innerText)
